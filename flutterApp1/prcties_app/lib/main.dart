@@ -9,16 +9,8 @@ void main() => runApp(MaterialApp(
     ),
 
     body: Center(
-      child: Text(
-        'hello isuru!!!',
-        style: TextStyle(
-           fontSize: 20.0,
-           fontWeight: FontWeight.bold,
-           letterSpacing: 2.0,
-           color: Colors.grey[600],
-          
-        ),
-
+      child: Image(
+        image: NetworkImage('https://wallpaperaccess.com/full/797185.png',),
       ),
     ),
     floatingActionButton: FloatingActionButton(
